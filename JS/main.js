@@ -98,7 +98,7 @@ const cardFooter = React.createElement('div', { className: 'card-footer' }, [
     React.createElement('p', { className: 'age' }, "99 age")
 ]);
 
-const Main = React.createElement('div', { className: 'main' }, [
+const readyContent = React.createElement('div', { className: 'main' }, [
     React.createElement('div', { className: 'beginning' },
         React.createElement('img', { src: image, className: 'logotip', style: styles.image })
     ),
@@ -154,4 +154,4 @@ const Main = React.createElement('div', { className: 'main' }, [
 
 ])
 
-root.render(Main)
+root.render(readyContent)
